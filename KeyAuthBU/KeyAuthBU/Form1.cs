@@ -1,13 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace KeyAuthBU
 {
@@ -23,8 +25,24 @@ namespace KeyAuthBU
             string response;
             string fullpath = metroTextBox2.Text;
             string sellerkey = metroTextBox1.Text;
+
+
+            if (!File.Exists(fullpath + "/Key.txt"))
+            {
+                using (StreamWriter writer = new StreamWriter(fullpath + "/Key.txt"))
+                {
+                    writer.WriteLine(sellerkey);
+                    writer.Close();
+                }
+            }
+
+            if (File.Exists(fullpath + "/Key.txt"))
+            {
+                sellerkey = File.ReadAllText(fullpath + "/Key.txt");
+                metroTextBox1.Text = sellerkey;
+            }
             //chats
-            if(metroToggle1.Checked)
+            if (metroToggle1.Checked)
             {
                 HttpWebRequest hwr = (HttpWebRequest)WebRequest.Create("https://keyauth.win/api/seller/?sellerkey=" + sellerkey + "&type=fetchallchats");
                 hwr.Method = "GET";
