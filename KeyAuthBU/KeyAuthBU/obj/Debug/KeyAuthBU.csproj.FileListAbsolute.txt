@@ -1,0 +1,13 @@
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\bin\Debug\KeyAuthBU.exe.config
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\bin\Debug\KeyAuthBU.exe
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\bin\Debug\KeyAuthBU.pdb
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\bin\Debug\MetroFramework.dll
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.csproj.AssemblyReference.cache
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.csproj.SuggestedBindingRedirects.cache
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.Form1.resources
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.Properties.Resources.resources
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.csproj.GenerateResource.cache
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.csproj.CoreCompileInputs.cache
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.csproj.CopyComplete
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.exe
+C:\Users\neeke\Desktop\koodi\KeyAuthBU\KeyAuthBU\obj\Debug\KeyAuthBU.pdb
